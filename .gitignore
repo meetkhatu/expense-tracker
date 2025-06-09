@@ -1,0 +1,12 @@
+# Frontend
+/frontend/expense-tracker/node_modules
+/frontend/expense-tracker/dist       # ← future build output
+/frontend/expense-tracker/.env
+
+# Backend
+/backend/node_modules
+/backend/.env
+
+# General
+.env
+.DS_Store
