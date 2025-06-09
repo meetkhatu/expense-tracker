@@ -23,7 +23,6 @@ const Home = () => {
 
   const [dashboardData, setDashboardData] = useState(null)
   const [loading, setLoading] = useState(false)
-  console.log(dashboardData)
   const fetchDashboardData = async () => {
     if (loading) return
 
